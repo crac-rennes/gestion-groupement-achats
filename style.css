@@ -1,0 +1,115 @@
+body {
+color : #081038;
+font-family : FreeSans, Verdana,Arial, Helvetica, sans-serif;
+font-size : 90%;
+scrollbar-3d-light-color : #000000;
+scrollbar-arrow-color : #000000;
+scrollbar-base-color : #888888;
+scrollbar-dark-shadow-color : #000000;
+scrollbar-face-color : #787878;
+scrollbar-highlight-color : #000000;
+scrollbar-shadow-color : #ffffff;
+}
+table {
+border: thin solid #000000;
+border-collapse: collapse
+}
+td, th {
+font-family: sans-serif;
+border: thin solid #6495ed;
+margin : 3px 0px 3px -5px;
+font-size : 85%;
+}
+a{color:#003570; text-decoration:none;}
+a:hover{color:#003570; text-decoration:underline;}
+a:active{color:#003570; text-decoration:none;}
+a:visited{color:#003570; text-decoration:none;}
+H1{
+font-size : 1.4em;
+color : #000000;
+font-family : Helvetica, sans-serif;
+}
+H2{
+font-size : 1.3em;
+color : #002000;
+font-family : sans-serif;
+}
+H3{
+font-size : 1.2em;
+color : #000020;
+font-family : Helvetica, sans-serif;
+text-decoration:underline
+}
+H4{
+font-size : 1.1em;
+color : #200000;
+font-family : sans-serif;
+}
+
+#menu {
+	float:left;
+	width:250px;
+	top:0px;
+	background-image:-moz-linear-gradient(0deg, #0DDDDD, white);
+	background-image:-webkit-linear-gradient(0deg, #BDEDBD, white);
+	background-image:-o-linear-gradient(0deg, #DDDDDD, white);
+	background-image:linear-gradient(90deg, #DDDDDD, white);
+	text-align:center;
+	margin:0;
+	padding:0;
+	left:0;
+}
+
+#main {
+	margin-left:270px;
+}
+
+select{
+	display : inline-block;
+	color:#222;
+	background-color:#aaa;
+	margin: 2px 5px;
+	/*border: 1px #446644;*/
+	border: 0 none;
+	font-size:1em;
+	border-radius: 2px;
+	/*text-shadow: 0 -1px 0 #444;*/
+	box-shadow: 0 1px 0 #888, 0 2px 0 #777, 0 2px 5px rgba(0,0,0,1);
+	background: -webkit-linear-gradient(#eee, #ddd);
+	background: linear-gradient(#eee, #ddd);
+}
+
+.bouton {
+	font-size: 1em;
+	/*font-weight: bold;
+	text-transform: uppercase;*/
+	padding: 5px 15px;
+	margin: 2px 5px;
+	color: #222	;
+	background-color: #555;
+	background: -webkit-linear-gradient(#eee, #ddd);
+	background: linear-gradient(#eee, #ddd);
+	border: 0 none;
+	border-radius: 2px;
+	/*text-shadow: 0 -0.5px 0 #333;*/
+	box-shadow: 0 1px 0 #888, 0 2px 2px #777, 0 2px 5px rgba(0,0,0,1), 0 2px 0 #777;
+	cursor: pointer;
+	}
+
+.bouton:active {
+	background: -webkit-linear-gradient(#555,#888);
+	background: linear-gradient(#555,#888);
+	color:black;
+	}
+	
+.inline_tab {
+	display:inline-block;
+	}
+ 
+ .prix_udv {
+	font-size:0.9em;
+	/*display:inline;*/
+	text-align:right;
+	margin-right:5px;
+	/*box-shadow: 0 1px 0 #888, 0 2px 2px #777, 0 4px 6px rgba(0,0,0,1);*/
+ }
